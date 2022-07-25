@@ -101,8 +101,8 @@ def get_conditions(filters):
 	if filters.get("customer"):
 		conditions.append(" and `tabAssign Diet Schedule`.customer in %(customer)s")
 
-	if filters.get("Diet_plan"):
-		conditions.append(" and `tabAssign Diet Schedule`.diet_plan in %(Diet_plan)s")
+	if filters.get("diet_plan"):
+		conditions.append(" and `tabAssign Diet Schedule`.diet_plan in %(diet_plan)s")
 
 	if filters.get("trainer"):
 		conditions.append(" and `tabAssign Diet Schedule`.trainer in %(trainer)s")

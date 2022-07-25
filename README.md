@@ -38,6 +38,7 @@ ___
 2. Diet Schedule Analysis
 3. Workout Schedule Analysis
 4. Expiring Memberships
+5. Gym Schedule
 ___
 #### License
 
